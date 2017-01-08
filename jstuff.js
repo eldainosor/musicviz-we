@@ -163,7 +163,7 @@ function playNext() {
 }
 
 window.onload = function () {
- //  playSong(songList[0]);
+  playSong(songList[0]);
   //$( ".playlist ul" ).sortable();
   //$( ".playlist ul").disableSelection();
 };

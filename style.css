@@ -4,7 +4,11 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 body {
-  background: url(assets/bg.jpg);
+  background: url(assets/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding: 0 20px 20px;
   color: #fff;
   height: 100vh;
@@ -43,7 +47,7 @@ h1 {
 }
 @media only screen and (max-width: 1980px) {
 .cover-holder {top:46%;left:46%}
-.vis-circle {width:300px;height:300px}
+.vis-circle {width:250px;height:250px}
 }
 @media only screen and (max-width: 1480px) {
 .cover-holder {top:48%;left:48%}
