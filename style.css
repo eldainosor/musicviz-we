@@ -41,6 +41,20 @@ h1 {
   -webkit-transform: scale(1) translateZ(0);
           transform: scale(1) translateZ(0);
 }
+@media only screen and (max-width: 1980px) {
+.cover-holder {top:46%;left:46%}
+.vis-circle {width:300px;height:300px}
+}
+@media only screen and (max-width: 1480px) {
+.cover-holder {top:48%;left:48%}
+.vis-circle {width:200px;height:200px}
+}
+
+@media only screen and (max-width: 1024px) {
+.cover-holder {top:50%;left:50%}
+.vis-circle {width:150px;height:150px}
+}
+
 .stage {
   position: relative;
   background-color: rgba(0,0,0,0.36);
