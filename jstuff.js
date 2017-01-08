@@ -164,6 +164,7 @@ function playNext() {
 
 window.onload = function () {
   playSong(songList[0]);
+  window.wallpaperRegisterAudioListener(wallpaperAudioListener);
   //$( ".playlist ul" ).sortable();
   //$( ".playlist ul").disableSelection();
 };

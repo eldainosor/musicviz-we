@@ -12,6 +12,7 @@
 				"value" : "0 0 0"
 			}
 		}
+	"supportsaudioprocessing" : true
 	},
 	"title" : "MusicViz Bass Circle",
 	"type" : "web"
